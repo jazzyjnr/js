@@ -1,0 +1,102 @@
+1.
+using System;
+
+namespace Basics1
+{
+    class addTwoNumbers
+    {
+        static void Main(string[] args)
+        {
+            int num1 = 20;
+           	int num2 = 100;
+		    int num3 =  num1 * num2;     
+            		
+		    num1 = num3 / num1;      
+        	num2 = num3 / num2;
+            Console.WriteLine("After swap num1: " + num1);
+            Console.WriteLine("\nAfter swap num2: " + num2);
+        }
+    }
+}
+
+2.
+using System;
+
+namespace Basics1
+{
+    class addTwoNumbers
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter a floating number1:");
+            decimal num1 = Convert.ToDecimal(Console.ReadLine());
+            Console.WriteLine("Enter a floating number2:");
+            decimal num2 = Convert.ToDecimal(Console.ReadLine());
+            decimal Total = num1 * num2;
+            Console.WriteLine("Multiplication of two Floating Point Numbers is: " + Total);
+        }
+    }
+}
+
+3.
+using System;
+
+namespace Basics1
+{
+    class addTwoNumbers
+    {
+        static void Main(string[] args)
+        {
+		    Console.WriteLine("Enter a floating number1:");
+		    int num1 = Convert.ToInt32(Console.ReadLine());
+		    Console.WriteLine("Enter a floating number2:");
+		    int num2 = Convert.ToInt32(Console.ReadLine());
+		    int addt = num1 + num2;
+		    int sub = num1 - num2; 
+		    int multi = num1 * num2;
+		    int modulo = num1 % num2;
+		    Console.WriteLine("Addition of your two numbers is: " + addt);
+		    Console.WriteLine("Subtraction  of your two numbers is: " + sub);
+		    Console.WriteLine("Multiplication of your two numbers is: " + multi);
+		    Console.WriteLine("Modulo of your two numbers is: " + modulo);
+        }
+    }
+}
+
+4.
+using System;
+
+namespace Basics1
+{
+    class addTwoNumbers
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter feet :");
+		    double feet = Convert.ToInt32(Console.ReadLine());
+            double meter = feet / 3.2808399;
+        	Console.WriteLine("\nFeet in meter : " + meter);
+        }
+    }
+}
+
+5.
+using System;
+
+namespace Basics1
+{
+    class addTwoNumbers
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter Celsius:");
+		 double celsius = Convert.ToDouble(Console.ReadLine());
+         Console.WriteLine("Celsius: " + celsius);
+
+         double fahrenheit = (celsius * 9) / 5 + 32;
+         Console.WriteLine("Fahrenheit: " + fahrenheit);
+
+         Console.ReadLine();
+        }
+    }
+}

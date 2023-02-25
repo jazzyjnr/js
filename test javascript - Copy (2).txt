@@ -1,0 +1,80 @@
+part 1
+whrite the code necessary to the following 
+1. create an empty array called arr
+answer
+let arr = [];
+
+2. Add your first name to the arr variable
+answer
+let arr = [];
+let arr = arr.push('mohammed');
+console.log(arr);
+
+3. Add your last name to the end of the arr variable 
+let arr = ['mohammed'];
+let arr = arr.push('ayomide');
+console.log(arr);
+
+4. Add your favorite colour to the begining of the arr variable
+answer 
+let arr = ['mohamed', 'ayomide'];
+let arr = arr.shift('Blue');
+console.log(arr);
+
+
+
+16. Your variable arr should look like this (using Elie for a first
+name,Schoppik for a lastname and purple a favorite colour)['purple','Elie','Schoppik']
+answer
+let arr = [];
+let arr = arr.push('Purple', 'Elie', 'Shoppik');
+console.log(arr);
+
+
+1. Remove the favorite colour from the arr variable(remember this is the first value in an arry?)
+answer
+let arr = ['Purple', 'Elie', 'Shoppik'];
+let newlength = arr.splice();
+console.log(arr);
+
+2. Creat another array called arr2
+anwer
+let arr2 = [];
+
+3. Add your favorite number to arr2
+answer
+let arr2 = [];
+let arr2 = arr2.push(42);
+console.log(arr2);
+
+4. Add the string 'javascript' to the end of the arr2 variable
+answer
+let arr2 = [42];
+let arr2 = arr.push('JavaScript');
+console.log(arr2);
+
+
+
+17. Your variable arr2 should look like this(using 42 as a favorite number)[42, 'JavaScript']
+answer
+let arr2 = [];
+let arr2 = arr2.push(42, 'JavaScript');
+consol.log(arr2);
+
+
+
+18. let see if the value 42 exists in the arrays.do bit using the indexOf method
+answer
+
+
+
+
+
+19. what does indexof return to you if the value passed to it can not b found in the array
+answer 
+it returns -1
+
+
+20. create a new   
+
+

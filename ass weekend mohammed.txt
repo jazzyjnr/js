@@ -1,0 +1,47 @@
+1. 1. Write a JS code to print numbers from 1 to 10.
+answer
+for(let a = 1; a <= 10; a++)
+{
+console.log(a);
+}
+
+
+2. 2. Write a JS code to print Even numbers in given array
+let arr = [13,23,12,45,22,48,66,100]
+answer
+let arr = [13,23,12,45,22,48,66,100]
+let i;
+for (i = 0; i<arr.length; i++){
+ if(i%2 == 0){
+    console.log(arr[i]);}}
+
+ 
+3. Write a JS code to find the largest number in an array
+
+var arr = [2, 45, 3, 67, 34, 567, 34, 345, 123]; 
+answer
+var arr = [2, 45, 3, 67, 34, 567, 34, 345, 123];
+console.log(Math.max(...arr));
+
+
+4.  Write a JS code to count all letters in a word
+
+var str="Suggesting";
+answer
+var str="Suggesting";
+console.log(str.length);
+
+5.  Declare and initialize an array called Planets with 5 string values
+console.log each item in the array
+Also console.log the index in each iteration
+
+
+
+
+
+
+
+
+
+
+6. Declare and initialize an array called - wowDatatypes

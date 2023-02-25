@@ -1,0 +1,88 @@
+Exercises - Array Basics
+
+1. Create an array of your favorite foods (call it favoriteFoods). Make sure it has at least three elements.
+ans :
+
+2. Access the second element in favoriteFoods.
+
+3. Change the last element in favoriteFoods to some other food.
+
+4. Remove the first element in favoriteFoods and store it in a variable called formerFavoriteFood.
+
+5. Add a favorite food to the back of the favoriteFoods array.
+
+6. Add a favorite food to the front of the favoriteFoods array.
+
+7. What happens when you try to pop from an empty array?
+
+8. In the examples below, use splice to convert the first array to the second array:
+	A. [2, 3, 4, 5] -> [2, 4, 5]
+	B. ["alpha", "gamma", "delta"] -> ["alpha", "beta", "gamma", "delta"]
+	C. [10,-10,-5,-3,2,1] -> [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+9. Reverse. Write a function that reverts the input array. Please, do not use array.reverse(); to make this task more enjoyable.
+
+10. Write a method that returns a duplicate-free array
+Expected Result: Duplicate-free array [1, 2, 3, 1, 2] => [1, 2, 3] 
+
+11. In this task we'd like you to create an array of three items, stored inside a variable called myArray. The items can be anything you want — how about your favorite foods or bands?
+
+Next, modify the first two items in the array using simple bracket notation and assignment. Then add a new item to the beginning of the array.
+
+12. let myString = 'Ryu+Ken+Chun-Li+Cammy+Guile+Sakura+Sagat+Juri';
+1. Convert the string into an array, removing the + characters in the process. Save the result in a variable called myArray.
+2. Store the length of the array in a variable called arrayLength.
+3. Store the last item in the array in a variable called lastItem.
+
+13. let myArray = [ "Ryu", "Ken", "Chun-Li", "Cammy", "Guile", "Sakura", "Sagat", "Juri" ];
+
+1. Remove the last item in the array.
+2. Add two new names to the end of the array.
+3. Go over each item in the array and add its index number after the name inside parentheses, for example Ryu (0). Note that we don't teach how to do this in the Arrays article, so you'll have to do some research.
+4. Finally, join the array items together in a single string called myString, with a separator of "-".
+
+14. For this array task, we provide you with a starting array listing the names of some birds.
+
+const birds = [ "Parrots", "Falcons", "Eagles", "Emus", "Caracaras", "Egrets" ];
+
+1. Find the index of the "Eagles" item, and use that to remove the "Eagles" item.
+2. Make a new array from this one, called eBirds, that contains only birds from the original array whose names begin with the letter "E". Note that startsWith() is a great way to check whether a string starts with a given character.
+
+If it works, you should see "Emus,Egrets" appear in the page.
+
+
+15. Write a simple JavaScript program to join all elements of the following array into a string. 
+
+Sample array : myColor = ["Red", "Green", "White", "Black"];
+
+Expected Output :
+"Red,Green,White,Black"
+"Red,Green,White,Black"
+"Red+Green+White+Black"
+
+16. Write a JavaScript program that accepts a number as input and insert dashes (-) between each two even numbers. For example, if you accept 025468 the output should be 0-254-6-8. 
+
+17. Write a JavaScript program to sort the items of an array. 
+Sample array : var arr1 = [ 3, 8, 7, 6, 5, -4, 3, 2, 1 ];
+Sample Output : -4,-3,1,2,3,5,6,7,8
+
+18. Write a JavaScript program to find the most frequent item of an array. 
+Sample array : var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+Sample Output : a ( 5 times )
+
+19. Write a JavaScript program which accepts a string as input and swap the case of each character. For example, if you input 'The Quick Brown Fox' the output should be 'tHE qUICK bROWN fOX'. 
+
+20. Write a JavaScript program which prints the elements of the following array. 
+Note : Use nested for loops.
+Sample array : var a = [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]];
+Sample Output :
+"row 0"
+" 1"
+" 2"
+" 1"
+" 24"
+"row 1"
+------
+------
+
+Good Luck. Submission Date - Monday 16th January. 12pm
